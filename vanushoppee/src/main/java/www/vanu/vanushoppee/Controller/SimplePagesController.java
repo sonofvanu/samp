@@ -10,4 +10,9 @@ public class SimplePagesController {
 	public String gotoindex() {
 		return ("index");
 	}
+	
+	@RequestMapping("/userreg")
+	public String gotousereg() {
+		return ("UserRegistration");
+	}
 }

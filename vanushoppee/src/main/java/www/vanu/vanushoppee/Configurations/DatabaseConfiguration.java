@@ -8,21 +8,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBuilder;
-import org.springframework.orm.hibernate5.HibernateTransactionManager;
-
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.vanuchatserver")
+@ComponentScan(basePackages = "www.vanu.vanushoppee")
 public class DatabaseConfiguration {
-	@Autowired
 	@Bean(name = "dataSource")
 	public DataSource getDataSource() {
 		BasicDataSource dataSource = new BasicDataSource();
 		dataSource.setDriverClassName("org.h2.Driver");
-		dataSource.setUrl("dbc:h2:tcp://localhost/~/vanushoppee;AUTO_SERVER=TRUE");
+		dataSource.setUrl("jdbc:h2:tcp://localhost/~/vanushoppee");
 		dataSource.setUsername("vanu");
 		dataSource.setPassword("vanu");
 
@@ -46,4 +44,5 @@ public class DatabaseConfiguration {
 		HibernateTransactionManager transactionManager = new HibernateTransactionManager(sessionFactory);
 		return transactionManager;
 	}
+
 }
