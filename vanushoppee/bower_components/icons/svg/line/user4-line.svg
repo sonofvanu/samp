@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>user4-line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="user4-line" stroke="#000000">
+            <ellipse id="Shape" cx="24" cy="24" rx="22.5" ry="22.5"></ellipse>
+            <path d="M37.8296757,41.7492468 C35.0228979,39.1864664 31.5498522,37.3411137 27.7006625,36.5033124 L27.4664338,35.332169 C30.9375,33.8867717 33,30.2535169 33,26 C33,20.4771525 29.5228475,16 24,16 C18.4771525,16 15,20.4771525 15,26 C15,30.2535169 17.0625,33.8867717 20.5335662,35.332169 L20.3688571,36.1557146 C16.1464117,36.658952 12.2910816,38.3581234 9.15118968,40.9049062 C13.1133218,44.3878881 18.3100058,46.5 24,46.5 C29.2143197,46.5 34.0143615,44.7262657 37.8296757,41.7492468 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

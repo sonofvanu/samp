@@ -7,8 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SimplePagesController {
 	
 	@RequestMapping("/")
-	public String gotoindex() {
-		return ("index");
+	public String gotolanding() {
+		return ("Landing");
+	}
+	@RequestMapping("/home")
+	public String gotohome() {
+		return ("Home");
 	}
 	
 	@RequestMapping("/userreg")

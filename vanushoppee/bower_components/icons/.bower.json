@@ -1,0 +1,33 @@
+{
+  "name": "icons",
+  "homepage": "https://github.com/ganlanyuan/icons",
+  "authors": [
+    "William <ganlanyuan@gmail.com>"
+  ],
+  "description": "Optimized icons for front-end development.",
+  "main": "svg/",
+  "keywords": [
+    "svg",
+    "icon",
+    "vector",
+    "optimize"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "89e31efde8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "89e31efde8cf0f0db52c891b08fc3d2dccb8658f"
+  },
+  "_source": "https://github.com/ganlanyuan/icons.git",
+  "_target": "*",
+  "_originalSource": "icons",
+  "_direct": true
+}
